@@ -1,0 +1,151 @@
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+.header-menu li{}
+.header-menu li a {
+	padding: 0 15px;
+	color: rgb(161, 139, 139);
+	transition: .4s;
+	line-height: 55px;
+}
+.header-menu li a:hover{
+    color: #000;
+}
+
+.header-img img {
+	width: 25px;
+	margin-right: 10px;
+}
+.banner-section{
+    background-color:#f9f9ff ;
+}
+.banner-title h5{
+    margin-bottom: 28px;
+    color: #544b4f;
+}
+.banner-title p{
+    font-size: 15px;
+    margin-bottom: 35px;
+    color: #544b4f;
+}
+.banner-title h2 {
+	margin-bottom: 1.5rem !important;
+	font-size: 38px;
+    color: rgba(0, 0, 0,.7);
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+}
+.banner-title{
+    margin-top: 150px;
+}
+.left-img{
+    width: 480px;
+}
+.about-content{
+    margin-top: 50px;
+}
+.about-content p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.number-counter{
+    background-color: #8490ff;
+    color: #fff;
+    padding: 70px;
+}
+/* .service-section{
+    background-color: ;
+    
+} */
+.service-title p {
+	font-size: 18px;
+	font-weight: 500;
+}
+.service-number h1 {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 50%;
+	background-color: #f9f9ff;
+	text-align: center;
+	margin: auto;
+}
+.service-items{
+    box-shadow: 5px 5px 24px 5px #f0f0fb;
+}
+.service-btn{
+    border:2px solid #8293ff ;
+    color: #8293ff;
+    font-weight: 500;
+}
+/*  About Section  */
+.about-item {
+    margin-top: 60px;
+}
+.about-item .card{}
+.about-item .card img {
+	width: 95px;
+	height: auto;
+	margin-top: -70px;
+	margin-left: 15px;
+}
+
+/*  Conent Us CSS  */
+.contnt-form-div .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 40px;
+}
+
+/* responsive-css */
+
+@media ( max-width:992px) {
+    .banner-title {
+        margin-top: 52px;
+    }
+    .about-content {
+        margin-top: -6px;
+    }
+    .service-title h1 {
+        font-size: 25px;
+    }
+    .service-title p {
+        font-size: 15px;
+    }
+    .service-items h5 {
+        font-size: 15px;
+    }
+    .about-item {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .card-title {
+        margin-bottom: 1.5rem;
+        font-size: 20px;
+    }
+    .gap{
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:768px) {
+    .left-img {
+        margin-bottom: 20px;
+    }
+    .col.text-center h1 {
+        font-size: 25px;
+    }
+    .service-items {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:576px) {
+.sumon {
+        font-size: 13px;
+    }
+}
